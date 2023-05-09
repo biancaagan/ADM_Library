@@ -16,14 +16,17 @@ As I've mentioned, this library is still a work in progress. It currently has so
 
 == How To Build ADM ==
 
-* Materials listed here are based off of my version *
+[ Materials listed here are based off of my version ]
+
 
 Hardware:
-- Arduino Nano 33 IoT
-- (2) Adafruit TB6612 1.2A DC/Stepper Motor Driver Breakout
-- (2) NEMA-17 Stepper Motor 200 steps/rev 12V 350mA
-- Pen Carriage + Cartridges (visit www.who-is-adm.com for build instructions and CAD files)
-- (2) Sets of hanging weights
-
+[.result]
+====
+* Arduino Nano 33 IoT
+* (2) Adafruit TB6612 1.2A DC/Stepper Motor Driver Breakout
+* (2) NEMA-17 Stepper Motor 200 steps/rev 12V 350mA
+* Pen Carriage + Cartridges (visit www.who-is-adm.com for build instructions and CAD files)
+* (2) Sets of hanging weights
+====
 
 == Installation ==
