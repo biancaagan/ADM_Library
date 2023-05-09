@@ -1,4 +1,4 @@
-= {repository-name} for Arduino =
+= ADM_Library for Arduino =
 
 ADM (Abstract Drawing Machine, 2023) is my thesis project from NYU's Interactive Telecommunications Program. 
 
