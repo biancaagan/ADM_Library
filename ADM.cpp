@@ -132,6 +132,58 @@ void curveDown(int d, int r1, int r2){
 /* ---------------------- ---------------------- ---------------------- */
 
 
+/* ----------------------------- DRAW A CIRCLE ----------------------------- */
+
+void drawCir(int d){
+    long positions[2];
+    
+    // Set starting position:
+    stepper1.setCurrentPosition(d * cos(0 * M_PI / 180));
+    stepper2.setCurrentPosition(d * sin(0 * M_PI / 180));
+    
+    for(int i = 0; i <= 360; i++){
+        positions[0] = d * cos(i * M_PI / 180);
+        positions[1] = d * sin(i * M_PI / 180);
+        
+        steppers.moveTo(positions);
+        steppers.runSpeedToPosition();
+    }
+}
+/* ---------------------- ---------------------- ---------------------- */
+
+/* ----------------------------- DRAW A RECTANGLE ----------------------------- */
+
+void drawCir(int r){
+    long positions[2];
+    
+    // Set starting position:
+    positions[0] = r - r;
+    positions[1] = r - r;
+    steppers.moveTo(positions);
+    steppers.runSpeedToPosition();
+    delay(500);
+    
+    positions[0] = r;
+    positions[1] = r;
+    steppers.moveTo(positions);
+    steppers.runSpeedToPosition();
+    delay(500);
+    
+    positions[0] = r-r;
+    positions[1] = r + r;
+    steppers.moveTo(positions);
+    steppers.runSpeedToPosition();
+    delay(500);
+    
+    positions[0] = -r;
+    positions[1] = r;
+    steppers.moveTo(positions);
+    steppers.runSpeedToPosition();
+    delay(500);
+    
+}
+/* ---------------------- ---------------------- ---------------------- */
+
 
 
 /* ----------------------------- ALPHABET ----------------------------- */

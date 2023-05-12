@@ -5,6 +5,8 @@
 void step(int s1, int s2);
 void curveUp(int d, int r1, int r2);
 void curveDown(int d, int r1, int r2);
+void drawCir(int d);
+void drawRect(int r);
 
 // Alphabet
 void step(int s);
