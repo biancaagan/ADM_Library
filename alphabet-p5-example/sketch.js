@@ -6,6 +6,8 @@
   
   ABCs, new line, jogging up/down/left/right
   
+  (Copy & paste the attached index.html file into the index file in your p5 sketch)
+  
   
   by Bianca Gan 4/9/23
 
