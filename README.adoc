@@ -1,7 +1,7 @@
 = ADM_Library for Arduino =
 
 [float]
-=== ( This library is in the process of being fully assembled )
+=== ( THIS LIBRARY IS IN THE PROCESS OF BEING FULLY ASSEMBLED & TESTED )
 
 ADM (Abstract Drawing Machine, 2023) is my thesis project from NYU's Interactive Telecommunications Program. 
 
