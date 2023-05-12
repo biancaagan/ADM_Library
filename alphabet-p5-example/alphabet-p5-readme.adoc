@@ -1,0 +1,5 @@
+[float]
+== Instructions for the Alphabet + p5 Code
+Copy and paste the sketch.js and index.html code from the example files into your p5 project.
+Be sure to change the portname info to reflect your own.
+This uses p5.serialcontrol.
