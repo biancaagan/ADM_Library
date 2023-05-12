@@ -1,5 +1,8 @@
 = ADM_Library for Arduino =
 
+[float]
+=== ( THIS LIBRARY IS IN THE PROCESS OF BEING FULLY ASSEMBLED & TESTED )
+
 ADM (Abstract Drawing Machine, 2023) is my thesis project from NYU's Interactive Telecommunications Program. 
 
 You can visit my thesis site at www.biancagan.com/adm as well as the ADM website www.who-is-adm.com for more information.
