@@ -23,6 +23,23 @@ void setup() {
     
 }
 
+
+void shift(int s1, int s2){
+
+    long positions[2];
+    
+    // Negative numbers move to the right,
+    // Positive numbers move to the left.
+
+    positions[0] = s1;
+    positions[1] = s2;
+    steppers.moveTo(positions);
+    steppers.runSpeedToPosition();
+    delay(500);
+    
+}
+
+
 /* ----------------------------- SIMPLE CURVES ----------------------------- */
 void curveUp(int d, int r1, int r2){
     long positions[2];
@@ -153,7 +170,7 @@ void drawCir(int d){
 
 /* ----------------------------- DRAW A RECTANGLE ----------------------------- */
 
-void drawCir(int r){
+void drawRect(int r){
     long positions[2];
     
     // Set starting position:
