@@ -1,0 +1,32 @@
+= ADM_Library for Arduino =
+
+ADM (Abstract Drawing Machine, 2023) is my thesis project from NYU's Interactive Telecommunications Program. 
+
+You can visit my thesis site at www.biancagan.com/adm as well as the ADM website www.who-is-adm.com for more information.
+
+This drawing machine is set up in a vertical format, that utilizes a two stepper motor + timing belt system to drag a pen carriage + drawing utensil across a surface.
+
+I wrote the ADM_Library to streamline the already existing AccelStepper Library to create my own modes and functions. The library itself is still being fully assembled and tested.
+
+
+== The Functions ==
+
+As I've mentioned, this library is still a work in progress. It currently has some basic function such as drawing a circle, curves, and the letters of the alphabet.
+
+
+== How To Build ADM ==
+
+[ Materials listed here are based off of my version ]
+
+
+Hardware:
+[.result]
+====
+* Arduino Nano 33 IoT
+* (2) Adafruit TB6612 1.2A DC/Stepper Motor Driver Breakout
+* (2) NEMA-17 Stepper Motor 200 steps/rev 12V 350mA
+* Pen Carriage + Cartridges (visit www.who-is-adm.com for build instructions and CAD files)
+* (2) Sets of hanging weights
+====
+
+== Installation ==
